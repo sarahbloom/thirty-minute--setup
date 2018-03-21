@@ -10,7 +10,7 @@ myApp.controller('WelcomeController', function(){
 })
 
 function willThisWork(digit){
-    if (digit == 15){
+    if (digit == 16){
         return 'yes'
     }
     else{
