@@ -5,4 +5,15 @@ myApp.controller('WelcomeController', function(){
     let self = this;
     self.greeting = "hi!!!";
     self.leave = "good bye!";
+    self.math = 2 * 8;
+    self.test = willThisWork(self.math)
 })
+
+function willThisWork(digit){
+    if (digit == 15){
+        return 'yes'
+    }
+    else{
+        return 'no' 
+    }
+}
